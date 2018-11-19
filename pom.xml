@@ -2,9 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>cs.grp.23</groupId>
+<!--  <groupId>cs.grp.23</groupId>
   <artifactId>test</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version> -->
+	
+	<groupId>cz.codeland.codechef</groupId>
+	<artifactId>test</artifactId>
+	<version>1.0-SNAPSHOT</version>
 
 <!--   <scm>
     <connection>scm:git:git://github.com/blackducksoftware/hub-common.git/</connection>
@@ -17,12 +21,17 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties> -->
   
-  <properties>
+ <!-- <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<mainClass>cs.grp.23</mainClass>
-  </properties>
+  </properties> -->
+	
+	<properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<mainClass>cz.codeland.codechef.Test</mainClass>
+	</properties>
   
-<!--   <build>
+   <build>
          <plugins>
 		     <plugin>
 			     <groupId>org.apache.maven.plugins</groupId>
@@ -38,23 +47,23 @@
 				 </configuration>
 			 </plugin>
 		 </plugins>
-</build> -->
+</build> 
 	
   <dependencies>
   
-<!--     <dependency>
+     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.8.2</version>
 	  <scope>test</scope>
-    </dependency> -->
+    </dependency> 
 	
 	<!-- CVE-2010-3860 -->
-    <dependency>
+<!--     <dependency>
       <groupId>org.acplt</groupId>
       <artifactId>oncrpc</artifactId>
       <version>1.7.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2011-4343 -->
     <dependency>
@@ -71,39 +80,39 @@
     </dependency>
 	
 	<!-- CVE-2013-0401 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
       <version>1.7.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2013-1571 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
       <version>1.6.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2013-2417 -->
-    <dependency>
+   <!-- <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
       <version>1.6.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2013-2461 -->
-    <dependency>
+<!--    <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
       <version>1.6.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2013-4600 -->
-    <dependency>
+<!--    <dependency>
       <groupId>org.opencms</groupId>
       <artifactId>opencms-core</artifactId>
       <version>6.0.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2014-0003 -->
     <dependency>
@@ -120,53 +129,53 @@
     </dependency>
 	
 	<!-- CVE-2014-2068 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>org.jenkins-ci.main</artifactId>
       <version>1.551</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2014-3709 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-core</artifactId>
       <version>1.0.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2015-0227 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.apache.ws.security</groupId>
       <artifactId>wss4j</artifactId>
       <version>2.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2015-3201 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>com.redhat.thermostat</groupId>
       <artifactId>thermostat-common</artifactId>
       <version>1.9.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2015-5351 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-catalina</artifactId>
       <version>7.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2016-1182 -->
-    <dependency>
+<!--    <dependency>
       <groupId>org.apache.struts</groupId>
       <artifactId>struts2-core</artifactId>
       <version>1.1.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2016-4970 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.jboss.netty</groupId>
       <artifactId>netty</artifactId>
       <version>4.0.0</version>
-    </dependency>
+    </dependency> -->
 		
 	<!-- CVE-2016-8749 -->
     <dependency>
@@ -183,39 +192,39 @@
     </dependency>
 	
 	<!-- CVE-2012-0047 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.apache.wicket</groupId>
       <artifactId>wicket-core</artifactId>
       <version>1.40</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2013-1515 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>ring-middleware-format</groupId>
       <artifactId>ring-middleware-format</artifactId>
       <version>3.0.1</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2014-0229 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.apache.whirr</groupId>
       <artifactId>whirr-cdh</artifactId>
       <version>0.23.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2015-5173 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>org.cloudfoundry</groupId>
       <artifactId>cloudfoundry-client-lib</artifactId>
       <version>2.5.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2016-3081 -->
-    <dependency>
+<!--    <dependency>
       <groupId>org.apache.struts</groupId>
       <artifactId>struts2-core</artifactId>
       <version>2.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2016-5004 -->
     <dependency>
@@ -225,11 +234,11 @@
     </dependency>
 	
 	<!-- CVE-2017-10391 -->
-    <dependency>
+<!--    <dependency>
       <groupId>org.glassfish.main.common</groupId>
       <artifactId>glassfish-api</artifactId>
       <version>3.0.1</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2017-3161 -->
     <dependency>
@@ -246,46 +255,46 @@
     </dependency>
 	
 	<!-- CVE-2018-1131 -->
-    <dependency>
+   <!-- <dependency>
       <groupId>org.infinispan</groupId>
       <artifactId>infinispan-core</artifactId>
       <version>9.0.3</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2018-1325 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.webjars.bower</groupId>
       <artifactId>jquery</artifactId>
       <version>6.29.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2018-8034 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-jdbc</artifactId>
       <version>9.0.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2017-14063 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>com.ning</groupId>
       <artifactId>async-http-client</artifactId>
       <version>2.0.0</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2017-2606 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
       <version>2.40</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2017-3261 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
       <version>1.6</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2017-5643 -->
     <dependency>
@@ -295,39 +304,39 @@
     </dependency>
 	
 	<!-- CVE-2017-7662 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.apache.cxf.fediz</groupId>
       <artifactId>fediz-core</artifactId>
       <version>1.3.9</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2018-1000008 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>net.sourceforge.pmd</groupId>
       <artifactId>pmd-core</artifactId>
       <version>3.49</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2018-1051 -->
-    <dependency>
+ <!--   <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jaxrs</artifactId>
       <version>3.0.22</version>
-    </dependency>
+    </dependency> -->
 	
     <!-- CVE-2018-1196 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot</artifactId>
       <version>1.5.9</version>
-    </dependency>
+    </dependency> -->
 	
 	<!-- CVE-2018-1273 -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-data-commons</artifactId>
       <version>1.13</version>
-    </dependency>
+    </dependency> -->
 	
   </dependencies>
 </project>
